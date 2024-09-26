@@ -1,0 +1,66 @@
+a {
+	cursor: pointer;
+}
+
+a.active {
+	color: rgb(252, 185, 65) !important;
+}
+
+.modal-backdrop {
+	z-index: 1000;
+}
+
+.owl-nav > button > span {
+	font-size: 48px;
+	color: rgb(252, 185, 65) !important;
+}
+
+.wrapInfo {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	&.price {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+.code {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+.code h6 {
+	margin-bottom: 0;
+}
+.code span {
+	line-height: 1;
+}
+.orderPrice {
+	padding-top: 20px;
+}
+.orderPrice label {
+	font-size: 18px;
+}
+
+.reviewOrder .nav-link {
+	border: none !important;
+	padding: 0 !important;
+	margin-top: 20px;
+	padding-left: 20px !important;
+	cursor: pointer;
+}
+
+.info {
+	padding: 10px 20px;
+	border: 1px #ddd solid;
+	margin: 10px 0;
+}
+.rating,
+.flexBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.orderItem {
+	.product {
+		background-color: transparent;
+	}
+}
